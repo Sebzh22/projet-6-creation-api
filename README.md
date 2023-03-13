@@ -13,6 +13,7 @@ Instruction avant de commencer :
     - créer un dossier images
     - créer un fichier .env
         - Coller le code suivant : 
-            CONNECTION_MONGODB=
+            CONNECTION_MONGODB= 
+            
             TOKEN_KEY = 'RANDOM_TOKEN_SECRET'
     - lancer : nodemon server ou node server
