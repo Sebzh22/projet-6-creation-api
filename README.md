@@ -10,7 +10,7 @@ Instruction avant de commencer :
 - Ouvrir un deuxième terminal
     - se rendre sur le dossier backend : cd backend
     - executer : npm install
-    - créer un dossier images
+
     - créer un fichier .env
         - Coller le code suivant : 
             DB_USER='Sebzh22'
