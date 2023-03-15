@@ -12,7 +12,7 @@ const app = express();
 
 
 mongoose.set('strictQuery', true);
-mongoose.connect(process.env.CONNECTION_MONGODB,
+mongoose.connect('mongodb+srv://'+process.env.DB_USER+':'+process.env.DB_PASSWORD+'@cluster0.lubyk4g.mongodb.net/'+process.env.DB_DATABASE+'?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
