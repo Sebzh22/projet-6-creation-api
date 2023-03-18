@@ -13,8 +13,8 @@ Instruction avant de commencer :
 
     - créer un fichier .env
         - Coller le code suivant : 
-            DB_USER='Sebzh22'
-            DB_PASSWORD='v2kqbyih3NvLknx0'
-            DB_DATABASE='Fullstack-API-Sauce'
+            DB_USER=''
+            DB_PASSWORD=''
+            DB_DATABASE=''
             TOKEN_KEY = 'RANDOM_TOKEN_SECRET'
     - lancer : nodemon server ou node server
