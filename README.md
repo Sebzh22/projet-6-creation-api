@@ -11,6 +11,7 @@ Instruction avant de commencer :
     - se rendre sur le dossier backend : cd backend
     - executer : npm install
 
+    - créer undossier images
     - créer un fichier .env
         - Coller le code suivant : 
             DB_USER=''
